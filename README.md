@@ -1,8 +1,4 @@
-<!-- ===================================================
-  README: ImNot'S Studios — super estilizado, com GIFs/ANIM
-  - Substitua os assets (banner, demo.gif, logo) na pasta /assets
-  - Coloque links reais nos campos marcados [TODO]
-  =================================================== -->
+
 
 <!-- HERO / BANNER -->
 <p align="center">
@@ -29,12 +25,6 @@ Construímos sites, apps, sistemas sob medida e integrações com IA — apoiand
 
 ---
 
-## 🔥 Destaques (com animação)
-> Recomendado: faça upload de um GIF curto `assets/demo.gif` mostrando uma animação ou protótipo (usabilidade, transições GSAP, mock de app).
-
-<p align="center">
-  <img src="assets/demo.gif" alt="Demo Animado" width="720" />
-</p>
 
 - Animações fluidas (GSAP / Lottie / SVG)
 - UI/UX pensada para conversão
@@ -71,29 +61,3 @@ Entregar soluções digitais que aliam design e engenharia para gerar resultados
 
 ---
 
-## 📚 O que tem neste repositório
-- `/docs` — documentação do produto / styleguide  
-- `/web` — código do site institucional (Next.js)  
-- `/apps` — apps móveis / webapps  
-- `/assets` — imagens, banners e GIFs (coloque aqui `banner.gif`, `demo.gif`, `logo.png`)  
-- `README.md` — essa página, sua vitrine no GitHub
-
----
-
-## 🛠️ Como rodar localmente (exemplo genérico)
-> Ajuste conforme cada repo dentro de `/web` ou `/apps`.
-
-```bash
-# clonar
-git clone https://github.com/studiosimnots/<repo-exemplo>.git
-cd <repo-exemplo>
-
-# instalar
-npm install
-
-# rodar em dev
-npm run dev
-
-# build
-npm run build
-npm run start

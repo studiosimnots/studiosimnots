@@ -1,67 +1,99 @@
-# 🚀 ImNot'S Studios
+<!-- ===================================================
+  README: ImNot'S Studios — super estilizado, com GIFs/ANIM
+  - Substitua os assets (banner, demo.gif, logo) na pasta /assets
+  - Coloque links reais nos campos marcados [TODO]
+  =================================================== -->
 
-Bem-vindo à **ImNot'S Studios** — uma startup focada em **soluções digitais modernas, criativas e eficientes**.  
-Nosso propósito é transformar ideias em experiências únicas por meio da tecnologia, design e inovação.
+<!-- HERO / BANNER -->
+<p align="center">
+  <!-- Banner animado: faça upload de um banner GIF/SVG para assets/banner.gif -->
+  <img src="assets/banner.gif" alt="ImNot'S Studios — Banner Animado" width="100%" />
+</p>
 
----
+<h1 align="center">🚀 ImNot'S Studios</h1>
+<p align="center"><em>Soluções digitais modernas, criativas e eficientes — transformando ideias em experiências.</em></p>
 
-## 💡 Sobre Nós
-
-A **ImNot'S Studios** nasceu com o objetivo de oferecer soluções digitais que realmente façam a diferença.  
-Seja desenvolvendo **sites, aplicativos, sistemas inteligentes ou automações**, nossa missão é **simplificar o digital** para que nossos clientes possam se concentrar no que realmente importa: o crescimento.
-
----
-
-## 🧠 Nossas Especialidades
-
-✨ Desenvolvimento de websites modernos e responsivos  
-⚙️ Criação de sistemas e plataformas sob medida  
-🤖 Integração com IA e automações inteligentes  
-📱 Aplicativos mobile e web apps  
-🎨 Design UI/UX centrado na experiência do usuário  
-
----
-
-## 🛠️ Tecnologias que usamos
-
-> De **frontend** a **backend**, estamos sempre explorando novas possibilidades.  
-> Nosso time domina o ecossistema moderno de desenvolvimento — e não tem medo de aprender o que for preciso.
-
-Exemplos:
-- **Frontend:** HTML, CSS, JavaScript, React, Next.js, Tailwind  
-- **Backend:** Node.js, Express, Firebase, Supabase  
-- **Banco de Dados:** MongoDB, PostgreSQL  
-- **Design:** Figma, Adobe XD, GSAP (animações avançadas)
+<p align="center">
+  <!-- Badges (substitua os valores se quiser) -->
+  <img src="https://img.shields.io/badge/status-in%20growth-2b2b2b?style=for-the-badge&logo=ghost" alt="status" />
+  <img src="https://img.shields.io/badge/stack-Full%20Stack-blue?style=for-the-badge&logo=stack-overflow" alt="stack" />
+  <img src="https://img.shields.io/badge/lang-PT%2FEN-lightgrey?style=for-the-badge" alt="languages" />
+  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="license" />
+</p>
 
 ---
 
-## 🚀 Nossos Valores
-
-- 💬 Comunicação transparente  
-- 🧩 Soluções sob medida  
-- ⚡ Inovação constante  
-- 🤝 Parceria com o cliente  
-- 🌍 Impacto digital positivo  
+## ✨ Visão geral
+**ImNot'S Studios** cria produtos digitais com foco em usabilidade, performance e impacto visual.  
+Construímos sites, apps, sistemas sob medida e integrações com IA — apoiando negócios que querem crescer no mundo digital.
 
 ---
 
-## 📈 Status do Projeto
+## 🔥 Destaques (com animação)
+> Recomendado: faça upload de um GIF curto `assets/demo.gif` mostrando uma animação ou protótipo (usabilidade, transições GSAP, mock de app).
 
-🧪 Atualmente, estamos **em fase de expansão e desenvolvimento de novos produtos** digitais.  
-Nos próximos meses, lançaremos nossas **plataformas próprias e soluções voltadas para negócios inteligentes.**
+<p align="center">
+  <img src="assets/demo.gif" alt="Demo Animado" width="720" />
+</p>
 
----
-
-## 📬 Contato
-
-Quer conversar com a gente?  
-Em breve deixaremos todos os nossos links oficiais por aqui.  
-Fique à vontade para entrar em contato e acompanhar nossos projetos!
-
-📧 contato@imnotsstudios.com *(exemplo, ajuste quando quiser)*
+- Animações fluidas (GSAP / Lottie / SVG)
+- UI/UX pensada para conversão
+- Integração com APIs, pagamentos e automações
+- Protótipos interativos (Figma -> React)
+- Deploy automatizado (CI/CD)
 
 ---
 
-### 💼 “Criando o futuro, um código de cada vez.”  
-**— ImNot'S Studios**
+## 🧩 Tecnologias (exemplos)
+> *Aqui listamos uma pilha completa — ajuste conforme seu time/stack real.*
 
+**Frontend**
+- React, Next.js, Vite, TypeScript  
+- TailwindCSS, CSS Modules, Styled Components  
+- GSAP (animações), Framer Motion, Lottie
+
+**Backend & Infra**
+- Node.js, Express, NestJS  
+- Firebase, Supabase, PostgreSQL, MongoDB  
+- Docker, GitHub Actions, Vercel, Netlify
+
+**IA & Dados**
+- OpenAI / LLM integration  
+- Pipelines ETL, analytics (Metabase/Looker)
+
+**Design**
+- Figma, Adobe XD, Illustrator
+
+---
+
+## 🎯 Missão
+Entregar soluções digitais que aliam design e engenharia para gerar resultados reais — eficiência, crescimento e satisfação do usuário.
+
+---
+
+## 📚 O que tem neste repositório
+- `/docs` — documentação do produto / styleguide  
+- `/web` — código do site institucional (Next.js)  
+- `/apps` — apps móveis / webapps  
+- `/assets` — imagens, banners e GIFs (coloque aqui `banner.gif`, `demo.gif`, `logo.png`)  
+- `README.md` — essa página, sua vitrine no GitHub
+
+---
+
+## 🛠️ Como rodar localmente (exemplo genérico)
+> Ajuste conforme cada repo dentro de `/web` ou `/apps`.
+
+```bash
+# clonar
+git clone https://github.com/studiosimnots/<repo-exemplo>.git
+cd <repo-exemplo>
+
+# instalar
+npm install
+
+# rodar em dev
+npm run dev
+
+# build
+npm run build
+npm run start
